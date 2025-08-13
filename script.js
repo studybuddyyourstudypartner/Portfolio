@@ -319,28 +319,28 @@ class ProjectModalManager {
             1: {
                 title: "E-Commerce Platform",
                 image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
-                fullDescription: "A comprehensive e-commerce solution built with modern web technologies. This platform provides a seamless shopping experience with advanced filtering, real-time inventory management, and secure payment processing.",
-                technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe API", "JWT", "Redux"],
+                fullDescription: "A comprehensive e-commerce solution built with modern frontend technologies. This platform provides a seamless shopping experience with advanced filtering, responsive design, and intuitive user interface.",
+                technologies: ["React", "TypeScript", "CSS3", "HTML5", "JavaScript", "Redux"],
                 features: [
                     "User authentication and authorization",
                     "Product catalog with advanced search and filtering",
                     "Shopping cart and wishlist functionality",
-                    "Secure payment integration with Stripe",
+                    "Modern payment interface design",
                     "Order tracking and history",
-                    "Admin dashboard for inventory management",
+                    "Admin dashboard with clean UI",
                     "Responsive design for all devices"
                 ],
-                challenges: "The main challenge was implementing a scalable inventory system that could handle high traffic during sales events. I solved this by implementing Redis caching and optimizing database queries, resulting in 60% faster page load times.",
+                challenges: "The main challenge was creating a responsive design that works seamlessly across all devices while maintaining fast loading times. I solved this by implementing efficient CSS Grid layouts and optimizing images, resulting in 60% faster page load times.",
                 liveUrl: "#",
                 githubUrl: "#"
             },
             2: {
                 title: "Task Management App",
                 image: "https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?auto=compress&cs=tinysrgb&w=800",
-                fullDescription: "A collaborative task management application designed for teams. Features real-time updates, drag-and-drop functionality, and comprehensive project tracking capabilities.",
-                technologies: ["Vue.js", "Firebase", "Vuex", "CSS Grid", "PWA", "Web Sockets"],
+                fullDescription: "A collaborative task management application designed for teams. Features intuitive drag-and-drop functionality, beautiful animations, and comprehensive project tracking capabilities.",
+                technologies: ["Vue.js", "CSS3", "Vuex", "CSS Grid", "PWA", "JavaScript"],
                 features: [
-                    "Real-time collaboration with live updates",
+                    "Interactive collaboration interface",
                     "Drag and drop task organization",
                     "Project timeline and milestone tracking",
                     "Team member assignment and notifications",
@@ -348,7 +348,7 @@ class ProjectModalManager {
                     "Progressive Web App capabilities",
                     "Offline functionality with sync"
                 ],
-                challenges: "Implementing real-time collaboration without conflicts was challenging. I used Firebase's real-time database with conflict resolution algorithms and optimistic updates to ensure smooth user experience.",
+                challenges: "Implementing smooth drag-and-drop functionality across different devices was challenging. I used CSS transforms and touch events with careful performance optimization to ensure smooth user experience on all devices.",
                 liveUrl: "#",
                 githubUrl: "#"
             },
