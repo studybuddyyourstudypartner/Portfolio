@@ -1098,6 +1098,21 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateX(0);
 }
 
+/* Ensure content is visible by default if animations fail */
+.about-content,
+.projects-grid,
+.skills-grid,
+.contact-content {
+    opacity: 1;
+    transform: none;
+}
+
+.project-card,
+.skill-category {
+    opacity: 1;
+    transform: none;
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
     .hero-content,
