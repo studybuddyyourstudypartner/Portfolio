@@ -438,6 +438,8 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: var(--shadow-xl);
     position: relative;
     z-index: 2;
+    display: block;
+    background: var(--gray-200);
 }
 
 .profile-ring {
