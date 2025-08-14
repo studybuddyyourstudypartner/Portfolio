@@ -704,11 +704,14 @@ document.addEventListener('DOMContentLoaded', () => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 const img = entry.target;
-                img.style.opacity = '0';
-                img.addEventListener('load', () => {
-                    img.style.transition = 'opacity 0.3s';
-                    img.style.opacity = '1';
-                });
+                // Skip lazy loading for profile image
+                if (!img.classList.contains('profile-img')) {
+                    img.style.opacity = '0';
+                    img.addEventListener('load', () => {
+                        img.style.transition = 'opacity 0.3s';
+                        img.style.opacity = '1';
+                    });
+                }
                 imageObserver.unobserve(img);
             }
         });
